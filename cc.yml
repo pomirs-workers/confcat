@@ -1,0 +1,7 @@
+name: 'CatchBot settings'
+out: 'config.yml'
+questions:
+  -
+    text: 'Bot name?'
+    default: 'CatchBot'
+    bind: 'name'
