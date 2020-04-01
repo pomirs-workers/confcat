@@ -1,7 +1,12 @@
-name: 'CatchBot settings'
-out: 'config.yml'
+name: CatchBot settings
+out: config.yml
 questions:
   -
-    text: 'Bot name?'
-    default: 'CatchBot'
-    bind: 'name'
+    text: Bot name?
+    type: common
+    default: CatchBot
+    bind: name
+  -
+    text: License agreement
+    type: yesno
+    bind: agree
